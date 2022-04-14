@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class BeanMotOfTheDay implements Serializable {
-    String mote_of_the_day = "Default quote";
+    String mote_of_the_day = "Innovation distinguishes between a leader and a follower.";
 
     public void BeanMotOfTheDay(){
     }
