@@ -12,9 +12,11 @@
     <title>Title</title>
 </head>
 <body>
-    <jsp:include page="header.jsp"></jsp:include>
-    <jsp:useBean id="timeBean" class="com.example.assigment3.BeanFunctions" scope="request"/>
-    <jsp:getProperty name="timeBean" property="_Date" />
+<jsp:include page="header.jsp"></jsp:include>
+<jsp:useBean id="timeBean" class="com.example.assigment3.BeanFunctions" scope="request"/>
+<div class="info">
+    <jsp:getProperty name="timeBean" property="_Date"/>
+</div>
 
 </body>
 </html>

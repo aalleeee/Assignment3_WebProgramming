@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Home</title>
 </head>
 <body>
 <h1><%= "Homepage" %>

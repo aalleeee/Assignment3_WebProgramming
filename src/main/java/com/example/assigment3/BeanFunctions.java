@@ -8,8 +8,7 @@ import java.util.Date;
 public class BeanFunctions implements Serializable {
     Date date;
 
-    public void BeanFunctions()
-    {
+    public void BeanFunctions() {
         date = new Date();
     }
 
@@ -17,20 +16,14 @@ public class BeanFunctions implements Serializable {
         return date;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public  String get_Time()
-    {
+    public String get_Time() {
         date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
-        return "Current time is: " + formatter.format(getDate());
+        return "Current time is : " + formatter.format(getDate());
     }
 
 
-    public String get_Date()
-    {
+    public String get_Date() {
         date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         return "Current date is: " + formatter.format(getDate());
