@@ -2,6 +2,7 @@
 ## Third assignment of the university course "Introduction to Web Programming (2022)"
 
 Part 1
+
 A site has a welcome message (mot of the day) which is changed every day a
 care of the administrator.
 A URL calls up a page in which the user can enter if recognized. If it doesn't come
@@ -10,7 +11,9 @@ valid ones report the error to the user, if valid they give access to a page tha
 see the current welcome phrase, and replace it with another phrase.
 A validated user can return to the same page within 10 minutes without having to
 resubmit username and password.
+
 Part 2
+
 The site contains other pages accessible without validation.
 A home page contains links to three pages:
 - The administration one
